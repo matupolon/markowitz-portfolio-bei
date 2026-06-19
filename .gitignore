@@ -1,0 +1,33 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ---- LaTeX (artefak kompilasi; .tex & .pdf final tetap disertakan) ----
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# ---- Artefak kerja / sementara ----
+_*.png
+*_preview.png
+*_contact*.png
+*_page*.png
+_retired/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# Catatan: data/prices_cache.csv SENGAJA di-commit (data ter-pin agar hasil
+# reproducible). Figur di outputs/ dapat diregenerasi via `python main.py`.

@@ -1,0 +1,7 @@
+# Dependensi proyek (diuji pada versi berikut)
+numpy>=2.2
+pandas>=2.3
+scipy>=1.16
+matplotlib>=3.10
+seaborn>=0.13
+yfinance>=1.4
